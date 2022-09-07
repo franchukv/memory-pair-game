@@ -31,7 +31,7 @@ let clickCounter = 0;
 
     const popupBtn = document.createElement('span');
     popupBtn.classList.add('popup__btn');
-    popupBtn.textContent = 'Starn Game';
+    popupBtn.textContent = 'Start Game';
     popup.append(popupBtn);
 
     addEventListenerToPopupBtn();
@@ -55,7 +55,7 @@ function finishTheGame() {
 
     const popupBtn = document.createElement('span');
     popupBtn.classList.add('popup__btn');
-    popupBtn.textContent = 'Starn New Game';
+    popupBtn.textContent = 'Start New Game';
     popup.append(popupBtn);
 
     addEventListenerToPopupBtn();
